@@ -25,7 +25,7 @@ SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
 # Cities to search in
-CITIES =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
+CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
     "Fairbanks", "Juneau",  # Alaska
     "Mesa", "Scottsdale",  # Arizona
     "Fayetteville", "Springdale",  # Arkansas
@@ -75,6 +75,8 @@ CITIES =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
     "San Francisco", "San Jose", "Santa Ana", "Seattle", "Shreveport", "Simi Valley", "South Bend", "Spokane", "St. Paul", 
     "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
+
+CITIES=["berlin"]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
