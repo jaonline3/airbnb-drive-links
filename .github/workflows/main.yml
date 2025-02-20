@@ -1,0 +1,43 @@
+name: Playwright Automation 0
+
+on:
+  workflow_dispatch:   # Allows manual triggering
+    inputs:
+      example_input:
+        description: 'An example input'
+        required: false
+        default: 'default_value'
+
+jobs:
+  run-playwright:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository containing the script
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python (version 3.9 or as needed)
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 3: Install Python dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          sudo apt install -y tor  # Install tor if required by your script
+          
+          # Install dependencies needed for DuckDuckGo search and related packages
+          pip install typing_extensions psutil pandas nest_asyncio pysocks duckduckgo-search primp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+      # Step 4: Decode and save JSON file from base64
+      - name: Decode and save JSON file
+        run: |
+          echo "${{ secrets.gar }}" | base64 --decode > file.json
+
+      # Step 5: Run your Playwright script
+      - name: Run Playwright script
+        run: |
+          python p.py
