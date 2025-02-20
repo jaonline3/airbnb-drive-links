@@ -97,7 +97,7 @@ def restart_tor():
     else:
         print("❌ Failed to start Tor. Check tor_log.txt.")
 
-def perform_search_with_tor(query, retries=5):
+def perform_search_with_tor(query, retries=10):
     """Perform DuckDuckGo search using Tor, with retries."""
     results = []
     
