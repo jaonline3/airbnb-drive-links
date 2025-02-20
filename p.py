@@ -25,7 +25,27 @@ SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
 # Cities to search in
-CITIES1 =[
+CITIES =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
+    "Fairbanks", "Juneau",  # Alaska
+    "Mesa", "Scottsdale",  # Arizona
+    "Fayetteville", "Springdale",  # Arkansas
+    "Anaheim", "Bakersfield", "Long Beach", "Santa Clara", "Santa Monica",  # California
+    "Aurora", "Pueblo",  # Colorado
+    "New Haven", "Stamford", "Waterbury",  # Connecticut
+    "Dover", "Newark",  # Delaware
+    "Fort Myers", "St. Petersburg", "Tallahassee", "West Palm Beach",  # Florida
+    "Macon", "Savannah", "Albany",  # Georgia
+    "Hilo",  # Hawaii
+    "Idaho Falls", "Pocatello",  # Idaho
+    "Springfield", "Naperville", "Peoria", "Rockford",  # Illinois
+    "Fort Wayne", "Gary", "South Bend",  # Indiana
+    "Cedar Rapids", "Sioux City",  # Iowa
+    "Overland Park", "Topeka",  # Kansas
+    "Lexington", "Bowling Green",  # Kentucky
+    "Lafayette", "Lake Charles",  # Louisiana
+    "Portland", "Bangor",  # Maine
+    "Rockville", "Annapolis",  # Maryland
+    "Worcester", "Springfield", "Lowell",  # Massachusetts
     "Abilene", "Akron", "Albany", "Albuquerque", "Anchorage", "Anderson", "Ann Arbor", "Appleton", "Arlington", "Asheville",
     "Aspen", "Athens", "Atlanta", "Augusta", "Austin", "Baltimore", "Birmingham", "Boise", "Boston", "Buffalo",
     "Charleston", "Charlotte", "Chicago", "Cincinnati", "Cleveland", "Colorado Springs", "Columbia", "Columbus", "Dallas", "Denver",
@@ -55,7 +75,6 @@ CITIES1 =[
     "San Francisco", "San Jose", "Santa Ana", "Seattle", "Shreveport", "Simi Valley", "South Bend", "Spokane", "St. Paul", 
     "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
-CITIES =["london"]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
