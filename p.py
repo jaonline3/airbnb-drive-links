@@ -77,27 +77,7 @@ CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
 ]
 
 CITIES=[
-    "Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "Kasserine", "Gafsa", "La Goulette",
-    "Zarzis", "Ben Arous", "Monastir", "La Mohammedia", "Al Marsa", "Msaken", "Skanes", "Houmt El Souk",
-    "Tataouine", "El Hamma", "Medenine", "Douane", "Beja", "Nabeul", "Kelibia", "Jendouba", "Mahdia",
-    "Moknine", "Menzel Temime", "Korba", "Metlaoui", "Tozeur", "Djerba", "Siliana", "Gremda", "Mateur",
-    "Kebili", "Tebourba", "Rades", "Sidi Bouzid", "Hammam-Lif", "Douz", "Hammamet", "Manouba",
-    "Bir El Hafey", "Bou Salem", "El Jem", "El Kef", "Menzel Bourguiba", "Tajerouine", "Sejnane",
-    "Thala", "Sidi Alouane", "El Alia", "Fernana", "Chebba", "Beni Khalled", "Teboursouk", "Sahline",
-    "Degache", "Haïdra", "Oueslatia", "Aïn Draham", "Remada", "El Fahs", "Haffouz", "Nadhour", "Djedeida",
-    "Sened", "Galaat el Andeless", "Makthar", "Ouled Chamekh", "Sbikha", "Menzel Horr", "Oued Ellil",
-    "Metline", "Bir Mcherga", "El Krib", "Ksar Hellal", "Hassi Jerbi", "Kalâa Kebira", "Bouchoucha",
-    "Menzel Chaker", "Redeyef", "Fouchana", "Menzel Bouzelfa", "Jedelienne", "Ksour Essef",
-    "Bargou", "Beni Khedache", "El Metouia", "Chorbane", "Sakiet Eddaier", "Sakiet Sidi Youssef",
-    "Bouhajla", "Kalâa Seghira", "Bekalta", "Essouassi", "Kerkennah", "Rohia", "Sidi Thabet",
-    "Melloulèche", "Rejiche", "Tazarka", "Teboulba", "Oued Zarga", "El Amra", "Zaghouan", "Moknine Nord",
-    "Hammam Sousse", "Mahrès", "Ghomrassen", "Ras Jebel", "Jemmel", "Béni Khiar", "Béni Khalled",
-    "Sidi Bouzid Ouest", "Kesra", "Jebiniana", "Hergla", "Medenine Nord", "Medenine Sud", "Bir Ali Ben Khalifa",
-    "El Battan", "Majaz al Bab", "Zarat", "Testour", "Ouled Haffouz", "Reggada", "Amdoun", "Ain Draham",
-    "Dahmani", "Beni M'Tir", "Sbiba", "Bou Argoub", "Menzel Abderrahmane", "Djebel Oust", "Takelsa",
-    "El Guettar", "Ben Gardane", "Menzel Mehiri", "Sidi Ali Ben Aoun", "Mateur Sud", "Tinja", "Menzel Jemil",
-    "Kalâat Senan", "Ain Tounga", "El Haouaria", "Sers", "Tameghza", "Aïn Zana", "Kondar", "Chihia",
-    "Raf Raf", "Douar Hicher", "Nebeur", "Es-Sabala", "Bouhjar"
+   "london"
 ]
 def is_tor_running():
     """Check if Tor process is running."""
@@ -201,7 +181,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f"site:instagram.com 'health' {city}"
+        query = f"site:linkedin.com 'real estate investor' {city}"
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
