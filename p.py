@@ -188,7 +188,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f'"electrical cable supplier" OR "electrical wire distributor" OR "electrical wire manufacturer" {city}'
+        query = f"site:instagram.com 'doctor' OR 'nurse' OR 'medical' {city}"
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
