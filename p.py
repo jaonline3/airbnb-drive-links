@@ -76,7 +76,8 @@ CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
     "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
 
-CITIES=["Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "Kasserine", "Gafsa", "La Goulette",
+CITIES=[
+    "Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "Kasserine", "Gafsa", "La Goulette",
     "Zarzis", "Ben Arous", "Monastir", "La Mohammedia", "Al Marsa", "Msaken", "Skanes", "Houmt El Souk",
     "Tataouine", "El Hamma", "Medenine", "Douane", "Beja", "Nabeul", "Kelibia", "Jendouba", "Mahdia",
     "Moknine", "Menzel Temime", "Korba", "Metlaoui", "Tozeur", "Djerba", "Siliana", "Gremda", "Mateur",
@@ -88,7 +89,16 @@ CITIES=["Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "K
     "Metline", "Bir Mcherga", "El Krib", "Ksar Hellal", "Hassi Jerbi", "Kalâa Kebira", "Bouchoucha",
     "Menzel Chaker", "Redeyef", "Fouchana", "Menzel Bouzelfa", "Jedelienne", "Ksour Essef",
     "Bargou", "Beni Khedache", "El Metouia", "Chorbane", "Sakiet Eddaier", "Sakiet Sidi Youssef",
-    "Bouhajla", "Kalâa Seghira", "Bekalta", "Essouassi", "Kerkennah", "Rohia"]
+    "Bouhajla", "Kalâa Seghira", "Bekalta", "Essouassi", "Kerkennah", "Rohia", "Sidi Thabet",
+    "Melloulèche", "Rejiche", "Tazarka", "Teboulba", "Oued Zarga", "El Amra", "Zaghouan", "Moknine Nord",
+    "Hammam Sousse", "Mahrès", "Ghomrassen", "Ras Jebel", "Jemmel", "Béni Khiar", "Béni Khalled",
+    "Sidi Bouzid Ouest", "Kesra", "Jebiniana", "Hergla", "Medenine Nord", "Medenine Sud", "Bir Ali Ben Khalifa",
+    "El Battan", "Majaz al Bab", "Zarat", "Testour", "Ouled Haffouz", "Reggada", "Amdoun", "Ain Draham",
+    "Dahmani", "Beni M'Tir", "Sbiba", "Bou Argoub", "Menzel Abderrahmane", "Djebel Oust", "Takelsa",
+    "El Guettar", "Ben Gardane", "Menzel Mehiri", "Sidi Ali Ben Aoun", "Mateur Sud", "Tinja", "Menzel Jemil",
+    "Kalâat Senan", "Ain Tounga", "El Haouaria", "Sers", "Tameghza", "Aïn Zana", "Kondar", "Chihia",
+    "Raf Raf", "Douar Hicher", "Nebeur", "Es-Sabala", "Bouhjar"
+]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
