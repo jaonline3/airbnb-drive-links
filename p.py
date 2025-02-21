@@ -76,16 +76,19 @@ CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
     "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
 
-CITIES=["Djerba Midoun", "Hammam-Lif", "Gremda", "Menzel Temime", "El Mourouj", "Oued Ellil", "Thala", "Jemmel",
-    "Akouda", "Sakiet Eddaier", "Sakiet Sidi Youssef", "El Alia", "Bou Salem", "Medenine Nord", "Medenine Sud",
-    "Fouchana", "Hammam Sousse", "Bouhajla", "Redeyef", "Degache", "Bir El Hafey", "Sbiba", "El Fahs", "Sejnane",
-    "Ksar Hellal", "Béni Khalled", "Béni Khiar", "Menzel Abderrahmane", "El Jem", "Menzel Bouzelfa", "Tazarka",
-    "Galaat el Andeless", "El Metouia", "Haffouz", "Nouvelle Matmata", "Bir Lahmar", "Douar Hicher", "Teboursouk",
-    "Bordj El Amri", "Nadhour","Bekalta", "Jedelienne", "El Battan", "Bargou", "Moknine", "Sened", "Aïn Draham", "Metline", "Fernana", "Zaghouan",
-    "Chebba", "Tajerouine", "Hergla", "Djedeida", "Rohia", "Oueslatia", "Makthar", "Tebourba", "Menzel Horr", "Kalâa Kebira",
-    "Kalâa Seghira", "Bir Mcherga", "Ksour Essef", "Haïdra", "Beni Khedache", "Rejiche", "El Krib", "Béni M'tir",
-    "El Guettar", "Remada", "Sidi Alouane", "Bouchoucha", "Hassi Jerbi", "Essouassi", "Kerkennah", "Ouled Chamekh", "Menzel Chaker",
-    "Chorbane", "Sbikha"]
+CITIES=["Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "Kasserine", "Gafsa", "La Goulette",
+    "Zarzis", "Ben Arous", "Monastir", "La Mohammedia", "Al Marsa", "Msaken", "Skanes", "Houmt El Souk",
+    "Tataouine", "El Hamma", "Medenine", "Douane", "Beja", "Nabeul", "Kelibia", "Jendouba", "Mahdia",
+    "Moknine", "Menzel Temime", "Korba", "Metlaoui", "Tozeur", "Djerba", "Siliana", "Gremda", "Mateur",
+    "Kebili", "Tebourba", "Rades", "Sidi Bouzid", "Hammam-Lif", "Douz", "Hammamet", "Manouba",
+    "Bir El Hafey", "Bou Salem", "El Jem", "El Kef", "Menzel Bourguiba", "Tajerouine", "Sejnane",
+    "Thala", "Sidi Alouane", "El Alia", "Fernana", "Chebba", "Beni Khalled", "Teboursouk", "Sahline",
+    "Degache", "Haïdra", "Oueslatia", "Aïn Draham", "Remada", "El Fahs", "Haffouz", "Nadhour", "Djedeida",
+    "Sened", "Galaat el Andeless", "Makthar", "Ouled Chamekh", "Sbikha", "Menzel Horr", "Oued Ellil",
+    "Metline", "Bir Mcherga", "El Krib", "Ksar Hellal", "Hassi Jerbi", "Kalâa Kebira", "Bouchoucha",
+    "Menzel Chaker", "Redeyef", "Fouchana", "Menzel Bouzelfa", "Jedelienne", "Ksour Essef",
+    "Bargou", "Beni Khedache", "El Metouia", "Chorbane", "Sakiet Eddaier", "Sakiet Sidi Youssef",
+    "Bouhajla", "Kalâa Seghira", "Bekalta", "Essouassi", "Kerkennah", "Rohia"]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
@@ -188,7 +191,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f"site:instagram.com 'doctor' OR 'nurse' OR 'medical' {city}"
+        query = f"site:instagram.com 'nurse' {city}"
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
