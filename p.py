@@ -76,7 +76,16 @@ CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
     "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
 
-CITIES=["berlin"]
+CITIES=["Djerba Midoun", "Hammam-Lif", "Gremda", "Menzel Temime", "El Mourouj", "Oued Ellil", "Thala", "Jemmel",
+    "Akouda", "Sakiet Eddaier", "Sakiet Sidi Youssef", "El Alia", "Bou Salem", "Medenine Nord", "Medenine Sud",
+    "Fouchana", "Hammam Sousse", "Bouhajla", "Redeyef", "Degache", "Bir El Hafey", "Sbiba", "El Fahs", "Sejnane",
+    "Ksar Hellal", "Béni Khalled", "Béni Khiar", "Menzel Abderrahmane", "El Jem", "Menzel Bouzelfa", "Tazarka",
+    "Galaat el Andeless", "El Metouia", "Haffouz", "Nouvelle Matmata", "Bir Lahmar", "Douar Hicher", "Teboursouk",
+    "Bordj El Amri", "Nadhour","Bekalta", "Jedelienne", "El Battan", "Bargou", "Moknine", "Sened", "Aïn Draham", "Metline", "Fernana", "Zaghouan",
+    "Chebba", "Tajerouine", "Hergla", "Djedeida", "Rohia", "Oueslatia", "Makthar", "Tebourba", "Menzel Horr", "Kalâa Kebira",
+    "Kalâa Seghira", "Bir Mcherga", "Ksour Essef", "Haïdra", "Beni Khedache", "Rejiche", "El Krib", "Béni M'tir",
+    "El Guettar", "Remada", "Sidi Alouane", "Bouchoucha", "Hassi Jerbi", "Essouassi", "Kerkennah", "Ouled Chamekh", "Menzel Chaker",
+    "Chorbane", "Sbikha"]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
