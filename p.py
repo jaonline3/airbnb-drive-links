@@ -181,7 +181,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f"site:linkedin.com 'real estate investor' {city}"
+        query = f'email "electronic cables" "{city}"'
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
