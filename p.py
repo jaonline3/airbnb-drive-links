@@ -77,7 +77,43 @@ CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
 ]
 
 CITIES=[
-   "london"
+   "Madrid", "Barcelona", "Valencia", "Seville", "Zaragoza",
+    "Málaga", "Murcia", "Palma", "Las Palmas", "Bilbao",
+    "Alicante", "Córdoba", "Valladolid", "Vigo", "Gijón",
+    "L'Hospitalet", "A Coruña", "Vitoria-Gasteiz", "Granada", "Elche",
+    "Santa Cruz de Tenerife", "Oviedo", "Badalona", "Cartagena", "Tarragona",
+    "Jerez de la Frontera", "Sabadell", "Móstoles", "Alcalá de Henares", "Pamplona",
+    "Fuenlabrada", "Almería", "San Sebastián", "Leganés", "Santander",
+    "Castellón de la Plana", "Burgos", "Albacete", "Getafe", "Alcorcón",
+    "Logroño", "Badajoz", "Salamanca", "Huelva", "Lleida",
+    "Marbella", "Tarrasa", "Dos Hermanas", "San Cristóbal de La Laguna", "Torrejón de Ardoz","Torrevieja", "Mataró", "Santa Coloma de Gramenet", "Jaén", "Algeciras",
+    "Reus", "Ourense", "Santiago de Compostela", "Guadalajara", "Telde",
+    "San Fernando", "Roquetas de Mar", "San Sebastián de los Reyes", "Avilés", "Ponferrada",
+    "Benidorm", "Zamora", "Rivas-Vaciamadrid", "Toledo", "Coslada",
+    "El Puerto de Santa María", "Pontevedra", "Girona", "Melilla", "Ceuta",
+    "Talavera de la Reina", "Castelldefels", "Rubí", "Fuengirola", "Segovia",
+    "Manresa", "Ferrol", "Sanlúcar de Barrameda", "Arrecife", "Gandía",
+    "Ávila", "Collado Villalba", "Ciudad Real", "San Vicente del Raspeig", "Utrera",
+    "Elda", "Granollers", "Chiclana de la Frontera", "Torremolinos", "Vélez-Málaga",
+    "Mollet del Vallès", "La Línea de la Concepción", "Viladecans", "Majadahonda", "Motril","Barakaldo", "San Bartolomé de Tirajana", "Lorca", "Orihuela", "San Cugat del Vallès",
+    "Cornellà de Llobregat", "Alcobendas", "Ibiza", "Benalmádena", "Arona",
+    "Pozuelo de Alarcón", "Valdemoro", "Torrelavega", "Paterna", "Irún",
+    "Esplugues de Llobregat", "Torremolinos", "Linares", "Mijas", "Vilafranca del Penedès",
+    "Sant Boi de Llobregat", "Manacor", "Santa Lucía de Tirajana", "Vic", "Olot",
+    "Mérida", "Sestao", "Figueres", "Moncada y Reixach", "Cáceres",
+    "Alcoy", "Aranjuez", "Port de Pollença", "San Andrés del Rabanedo", "Rota",
+    "Zafra", "Tafalla", "Pinto", "Baza", "Cieza",
+    "Yecla", "Plasencia", "Cuenca", "Los Realejos", "Lloret de Mar",
+    "Villarreal", "La Orotava", "Eivissa", "Calella", "Alzira", "San Vicente del Raspeig", "Torrevieja", "Ferrol", "Sanlúcar de Barrameda", "Benidorm",
+    "Santa Pola", "Manresa", "Arrecife", "Rincón de la Victoria", "Puerto de la Cruz",
+    "Sant Adrià de Besòs", "Cerdanyola del Vallès", "Ávila", "Villanueva de la Serena", "Gandía",
+    "Inca", "Coslada", "Adeje", "Blanes", "Sant Feliu de Llobregat",
+    "Estepona", "Elda", "Roses", "Martorell", "Mollet del Vallès",
+    "Catarroja", "Puerto Real", "Sagunto", "Chiclana de la Frontera", "Cangas",
+    "Fuengirola", "Tres Cantos", "Ponferrada", "Las Rozas de Madrid", "Molins de Rei",
+    "Onda", "Villajoyosa", "San Pedro del Pinatar", "San Roque", "Almendralejo",
+    "Noia", "Santander de Quilichao", "Silla", "Villafranca del Bierzo", "Navalmoral de la Mata",
+    "Lepe", "Narón", "Sant Celoni", "Alhaurín de la Torre", "Utrera"
 ]
 def is_tor_running():
     """Check if Tor process is running."""
