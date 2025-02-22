@@ -24,57 +24,7 @@ TOR_LOG_FILE = "tor_log.txt"
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
-# Cities to search in
-CITIES1 =["Montgomery", "Hoover", "Tuscaloosa",  # Alabama
-    "Fairbanks", "Juneau",  # Alaska
-    "Mesa", "Scottsdale",  # Arizona
-    "Fayetteville", "Springdale",  # Arkansas
-    "Anaheim", "Bakersfield", "Long Beach", "Santa Clara", "Santa Monica",  # California
-    "Aurora", "Pueblo",  # Colorado
-    "New Haven", "Stamford", "Waterbury",  # Connecticut
-    "Dover", "Newark",  # Delaware
-    "Fort Myers", "St. Petersburg", "Tallahassee", "West Palm Beach",  # Florida
-    "Macon", "Savannah", "Albany",  # Georgia
-    "Hilo",  # Hawaii
-    "Idaho Falls", "Pocatello",  # Idaho
-    "Springfield", "Naperville", "Peoria", "Rockford",  # Illinois
-    "Fort Wayne", "Gary", "South Bend",  # Indiana
-    "Cedar Rapids", "Sioux City",  # Iowa
-    "Overland Park", "Topeka",  # Kansas
-    "Lexington", "Bowling Green",  # Kentucky
-    "Lafayette", "Lake Charles",  # Louisiana
-    "Portland", "Bangor",  # Maine
-    "Rockville", "Annapolis",  # Maryland
-    "Worcester", "Springfield", "Lowell",  # Massachusetts
-    "Abilene", "Akron", "Albany", "Albuquerque", "Anchorage", "Anderson", "Ann Arbor", "Appleton", "Arlington", "Asheville",
-    "Aspen", "Athens", "Atlanta", "Augusta", "Austin", "Baltimore", "Birmingham", "Boise", "Boston", "Buffalo",
-    "Charleston", "Charlotte", "Chicago", "Cincinnati", "Cleveland", "Colorado Springs", "Columbia", "Columbus", "Dallas", "Denver",
-    "Des Moines", "Detroit", "Durham", "El Paso", "Fort Worth", "Fresno", "Grand Rapids", "Greensboro", "Greenville", "Harrisburg",
-    "Hartford", "Honolulu", "Houston", "Indianapolis", "Jackson", "Jacksonville", "Kansas City", "Las Vegas", "Little Rock", "Louisville",
-    "Madison", "Memphis", "Miami", "Milwaukee", "Minneapolis", "Nashville", "New Orleans", "New York", "Oklahoma City", "Omaha",
-    "Orlando", "Philadelphia", "Phoenix", "Pittsburgh", "Portland", "Raleigh", "Richmond", "Riverside", "Sacramento", "St. Louis",
-    "Salt Lake City", "San Antonio", "San Diego", "San Francisco", "San Jose", "Seattle", "St. Paul", "Tampa", "Toledo", "Tucson",
-    "Tulsa", "Washington", "Wichita", "Aberdeen", "Allentown", "Ames", "Anchorage", "Anniston", "Apple Valley", "Arlington Heights", 
-    "Ashtabula", "Atchison", "Atlanta", "Atlantic City", "Auburn", "Augusta", "Austin", "Baltimore", "Bangor", "Barnstable",
-    "Baton Rouge", "Battle Creek", "Bay City", "Beaumont", "Bedford", "Bend", "Bessemer", "Bethlehem", "Billings", "Bismarck", 
-    "Bloomington", "Blue Springs", "Boise", "Boston", "Boulder", "Bowling Green", "Bradenton", "Brandon", "Brattleboro", 
-    "Bremerton", "Bridgeport", "Brockton", "Brooklyn", "Buffalo", "Burlington", "Caldwell", "Camarillo", "Canton", "Cape Coral", 
-    "Carson", "Casper", "Cedar Rapids", "Champaign", "Chandler", "Charleston", "Charlotte", "Chattanooga", "Cheyenne", "Chicago", 
-    "Chico", "Cincinnati", "Cleveland", "Clarksburg", "Clearwater", "Clinton", "Columbia", "Columbus", "Concord", "Corpus Christi", 
-    "Costa Mesa", "Dallas", "Davenport", "Dayton", "Denver", "Des Moines", "Detroit", "Dothan", "Draper", "Durham", 
-    "Eagan", "El Paso", "Englewood", "Eugene", "Evansville", "Fargo", "Fayetteville", "Flagstaff", "Flint", "Fort Collins", 
-    "Fort Lauderdale", "Fort Wayne", "Fort Worth", "Fresno", "Gainesville", "Galveston", "Garden Grove", "Gastonia", "Gilbert", 
-    "Glendale", "Grand Forks", "Grand Junction", "Grand Rapids", "Great Falls", "Green Bay", "Greensboro", "Greenville", "Hagerstown", 
-    "Hamilton", "Harrisburg", "Hartford", "Henderson", "Honolulu", "Houston", "Indianapolis", "Iowa City", "Irving", "Jackson", 
-    "Jacksonville", "Jamestown", "Janesville", "Jersey City", "Johnson City", "Joliet", "Jonesboro", "Kansas City", "Kennewick", 
-    "Killeen", "Kingston", "Knoxville", "Lafayette", "Lansing", "Las Vegas", "Laredo", "Little Rock", "Long Beach", "Los Angeles", 
-    "Louisville", "Lubbock", "Madison", "Macon", "Manchester", "Medford", "Memphis", "Miami", "Milwaukee", "Minneapolis", 
-    "Mobile", "Modesto", "Montgomery", "Nashville", "New Orleans", "New York", "Norfolk", "Oakland", "Oklahoma City", 
-    "Omaha", "Ontario", "Orlando", "Overland Park", "Philadelphia", "Phoenix", "Pittsburgh", "Portland", "Providence", 
-    "Raleigh", "Reno", "Richmond", "Riverside", "Rockford", "Sacramento", "St. Louis", "Salt Lake City", "San Antonio", "San Diego", 
-    "San Francisco", "San Jose", "Santa Ana", "Seattle", "Shreveport", "Simi Valley", "South Bend", "Spokane", "St. Paul", 
-    "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
-]
+
 
 CITIES=[
   "Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt",
