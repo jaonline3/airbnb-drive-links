@@ -27,45 +27,34 @@ DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
 
 CITIES=[
-  "Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt",
-    "Stuttgart", "Düsseldorf", "Leipzig", "Dortmund", "Essen",
-    "Bremen", "Dresden", "Hanover", "Nuremberg", "Duisburg",
-    "Bochum", "Wuppertal", "Bielefeld", "Bonn", "Münster",
-    "Karlsruhe", "Mannheim", "Augsburg", "Wiesbaden", "Gelsenkirchen",
-    "Mönchengladbach", "Braunschweig", "Kiel", "Aachen", "Chemnitz",
-    "Halle (Saale)", "Magdeburg", "Freiburg im Breisgau", "Krefeld", "Lübeck",
-    "Oberhausen", "Erfurt", "Mainz", "Rostock", "Kassel",
-    "Hagen", "Saarbrücken", "Hamm", "Potsdam", "Ludwigshafen",
-    "Oldenburg", "Leverkusen", "Osnabrück", "Solingen", "Heidelberg",
-    "Herne", "Neuss", "Darmstadt", "Paderborn", "Regensburg",
-    "Ingolstadt", "Würzburg", "Wolfsburg", "Ulm", "Heilbronn",
-    "Offenbach", "Göttingen", "Bottrop", "Recklinghausen", "Pforzheim",
-    "Bremerhaven", "Fürth", "Reutlingen", "Remscheid", "Moers",
-    "Koblenz", "Bergisch Gladbach", "Erlangen", "Trier", "Jena",
-    "Siegen", "Gütersloh", "Salzgitter", "Hildesheim", "Cottbus",
-    "Gera", "Schwerin", "Witten", "Zwickau", "Iserlohn",
-    "Gießen", "Düren", "Esslingen", "Flensburg", "Kleve",
-    "Bamberg", "Nordhorn", "Neumünster", "Ludwigsburg", "Landshut",
-    "Villingen-Schwenningen", "Rosenheim", "Wilhelmshaven", "Ravensburg", "Lüneburg", "Bayreuth", "Aschaffenburg", "Neuwied", "Lingen", "Sindelfingen",
-    "Neubrandenburg", "Frankfurt (Oder)", "Hanau", "Minden", "Worms",
-    "Baden-Baden", "Speyer", "Freiberg", "Weimar", "Passau",
-    "Kempten", "Straubing", "Fulda", "Wetzlar", "Lörrach",
-    "Sankt Augustin", "Ahlen", "Dachau", "Marburg", "Hof",
-    "Bad Homburg", "Leonberg", "Kaiserslautern", "Greifswald", "Rüsselsheim",
-    "Emden", "Garbsen", "Lippstadt", "Görlitz", "Freising",
-    "Wermelskirchen", "Viersen", "Sankt Ingbert", "Bad Salzuflen", "Zweibrücken",
-    "Böblingen", "Waiblingen", "Gummersbach", "Erkelenz", "Bad Kreuznach",
-    "Oberursel", "Homburg", "Meerbusch", "Bautzen", "Hohen Neuendorf",
-    "Unna", "Ibbenbüren", "Schorndorf", "Neu-Ulm", "Hilden",
-    "Nordhausen", "Gifhorn", "Schwäbisch Hall", "Delmenhorst", "Wedel",
-    "Cloppenburg", "Falkensee", "Bensheim", "Tuttlingen", "Weiden",
-    "Stolberg", "Lüneburg", "Bad Nauheim", "Rheine", "Elmshorn",
-    "Memmingen", "Bergheim", "Riesa", "Leinfelden-Echterdingen", "Wesseling",
-    "Singen", "Oberkirch", "Wismar", "Neustadt an der Weinstraße", "Rosenfeld",
-    "Euskirchen", "Garmisch-Partenkirchen", "Bad Oeynhausen", "Forchheim", "Lahr",
-    "Schwäbisch Gmünd", "Rathenow", "Willich", "Mettmann", "Grevenbroich",
-    "Husum", "Aalen", "Kornwestheim", "Weil am Rhein", "Weinheim",
-    "Ludwigshafen am Rhein", "Bad Vilbel", "Bünde", "Erkrath", "Neckarsulm"
+  "Abilene", "Akron", "Albany", "Albuquerque", "Anchorage", "Anderson", "Ann Arbor", "Appleton", "Arlington", "Asheville",
+    "Aspen", "Athens", "Atlanta", "Augusta", "Austin", "Baltimore", "Birmingham", "Boise", "Boston", "Buffalo",
+    "Charleston", "Charlotte", "Chicago", "Cincinnati", "Cleveland", "Colorado Springs", "Columbia", "Columbus", "Dallas", "Denver",
+    "Des Moines", "Detroit", "Durham", "El Paso", "Fort Worth", "Fresno", "Grand Rapids", "Greensboro", "Greenville", "Harrisburg",
+    "Hartford", "Honolulu", "Houston", "Indianapolis", "Jackson", "Jacksonville", "Kansas City", "Las Vegas", "Little Rock", "Louisville",
+    "Madison", "Memphis", "Miami", "Milwaukee", "Minneapolis", "Nashville", "New Orleans", "New York", "Oklahoma City", "Omaha",
+    "Orlando", "Philadelphia", "Phoenix", "Pittsburgh", "Portland", "Raleigh", "Richmond", "Riverside", "Sacramento", "St. Louis",
+    "Salt Lake City", "San Antonio", "San Diego", "San Francisco", "San Jose", "Seattle", "St. Paul", "Tampa", "Toledo", "Tucson",
+    "Tulsa", "Washington", "Wichita", "Aberdeen", "Allentown", "Ames", "Anchorage", "Anniston", "Apple Valley", "Arlington Heights", 
+    "Ashtabula", "Atchison", "Atlanta", "Atlantic City", "Auburn", "Augusta", "Austin", "Baltimore", "Bangor", "Barnstable",
+    "Baton Rouge", "Battle Creek", "Bay City", "Beaumont", "Bedford", "Bend", "Bessemer", "Bethlehem", "Billings", "Bismarck", 
+    "Bloomington", "Blue Springs", "Boise", "Boston", "Boulder", "Bowling Green", "Bradenton", "Brandon", "Brattleboro", 
+    "Bremerton", "Bridgeport", "Brockton", "Brooklyn", "Buffalo", "Burlington", "Caldwell", "Camarillo", "Canton", "Cape Coral", 
+    "Carson", "Casper", "Cedar Rapids", "Champaign", "Chandler", "Charleston", "Charlotte", "Chattanooga", "Cheyenne", "Chicago", 
+    "Chico", "Cincinnati", "Cleveland", "Clarksburg", "Clearwater", "Clinton", "Columbia", "Columbus", "Concord", "Corpus Christi", 
+    "Costa Mesa", "Dallas", "Davenport", "Dayton", "Denver", "Des Moines", "Detroit", "Dothan", "Draper", "Durham", 
+    "Eagan", "El Paso", "Englewood", "Eugene", "Evansville", "Fargo", "Fayetteville", "Flagstaff", "Flint", "Fort Collins", 
+    "Fort Lauderdale", "Fort Wayne", "Fort Worth", "Fresno", "Gainesville", "Galveston", "Garden Grove", "Gastonia", "Gilbert", 
+    "Glendale", "Grand Forks", "Grand Junction", "Grand Rapids", "Great Falls", "Green Bay", "Greensboro", "Greenville", "Hagerstown", 
+    "Hamilton", "Harrisburg", "Hartford", "Henderson", "Honolulu", "Houston", "Indianapolis", "Iowa City", "Irving", "Jackson", 
+    "Jacksonville", "Jamestown", "Janesville", "Jersey City", "Johnson City", "Joliet", "Jonesboro", "Kansas City", "Kennewick", 
+    "Killeen", "Kingston", "Knoxville", "Lafayette", "Lansing", "Las Vegas", "Laredo", "Little Rock", "Long Beach", "Los Angeles", 
+    "Louisville", "Lubbock", "Madison", "Macon", "Manchester", "Medford", "Memphis", "Miami", "Milwaukee", "Minneapolis", 
+    "Mobile", "Modesto", "Montgomery", "Nashville", "New Orleans", "New York", "Norfolk", "Oakland", "Oklahoma City", 
+    "Omaha", "Ontario", "Orlando", "Overland Park", "Philadelphia", "Phoenix", "Pittsburgh", "Portland", "Providence", 
+    "Raleigh", "Reno", "Richmond", "Riverside", "Rockford", "Sacramento", "St. Louis", "Salt Lake City", "San Antonio", "San Diego", 
+    "San Francisco", "San Jose", "Santa Ana", "Seattle", "Shreveport", "Simi Valley", "South Bend", "Spokane", "St. Paul", 
+    "Stockton", "Tampa", "Tempe", "Toledo", "Tucson", "Tulsa", "Waco", "Washington", "Wichita", "Yonkers"
 ]
 def is_tor_running():
     """Check if Tor process is running."""
@@ -169,7 +158,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f'email "electronic cables" "{city}"'
+        query = f'site:linkedin.com/in ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "lawyer" {city}'
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
