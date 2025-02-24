@@ -152,7 +152,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f'site:linkedin.com/in ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "lawyer" {city}'
+        query = f'site:instagram.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "doctor" "{city}"'
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
