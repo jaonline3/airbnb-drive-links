@@ -236,7 +236,7 @@ cities = [
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 # Search parameters
-num_results = 15  # Reduce to avoid being blocked
+num_results = 1500  # Reduce to avoid being blocked
 sleep_interval = 1  # Delay to prevent rate limiting
 save_interval = 50  # Save every X searches to prevent data loss
 
