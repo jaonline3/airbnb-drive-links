@@ -26,11 +26,7 @@ jobs:
           pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
           pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
-      - name: Install Playwright
-        run: |
-          pip install playwright
-          playwright install  # Install Playwright browsers
-
+      
       - name: Decode and save JSON file
         run: echo "${{ secrets.gar }}" | base64 --decode > file.json
 
