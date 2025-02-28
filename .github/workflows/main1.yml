@@ -31,6 +31,7 @@ jobs:
           
           # Install dependencies needed for DuckDuckGo search and related packages
           pip install typing_extensions psutil pandas nest_asyncio pysocks google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client pandas requests primp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+          pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
       # Step 4: Decode and save JSON file from base64
       - name: Decode and save JSON file
