@@ -300,6 +300,7 @@ if all_results:
     df.reset_index(drop=True, inplace=True)
     # Display cleaned phone numbers
     print(df)
+    df = df.drop_duplicates(subset=['Emails'])
     df.to_csv("All_dataz.csv", index=False)
     # Upload to Google Drive
     def upload_to_drive(file_path, folder_id):
