@@ -35,4 +35,4 @@ jobs:
         run: echo "${{ secrets.gar }}" | base64 --decode > file.json
 
       - name: Run Playwright script
-        run: python google.py
+        run: python goole.py
