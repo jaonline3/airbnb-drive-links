@@ -22,7 +22,7 @@ jobs:
           sudo apt install -y tor  # Install tor if required
           
           # Install necessary Python packages
-          pip install typing_extensions psutil pandas nest_asyncio pysocks duckduckgo-search primp
+          pip install typing_extensions psutil beautifulsoup4 requests pandas nest_asyncio pysocks duckduckgo-search primp
           pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
           pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
