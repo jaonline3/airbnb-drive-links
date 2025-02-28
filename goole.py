@@ -222,7 +222,16 @@ search_query = 'site:www.linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com"
 # List of cities to search
 
 cities = [
-        "Hialeah"]
+         "Rochester", "Yonkers", "Akron", "Augusta", "Amarillo",
+    "Glendale (AZ)", "Huntington Beach", "Montgomery", "Grand Rapids", "Salt Lake City",
+    "Little Rock", "Huntsville", "Mobile", "Tallahassee", "Grand Prairie",
+    "Overland Park", "Knoxville", "Worcester", "Brownsville", "Newport News",
+    "Santa Rosa", "Chattanooga", "Providence", "Fort Lauderdale", "Tempe",
+    "Oceanside", "Garden Grove", "Rancho Cucamonga", "Cape Coral", "Santa Clarita",
+    "Sioux Falls", "Peoria", "Ontario", "Vancouver", "Springfield",
+    "Lancaster", "Eugene", "Pembroke Pines", "Salem", "Corona",
+    "Elk Grove", "Cary", "Fort Collins", "Jackson", "Alexandria",
+    "Hayward", "Clarksville", "Lakewood", "Hollywood", "Torrance"]
 # Google Drive API Credentials
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
