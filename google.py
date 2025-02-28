@@ -2,7 +2,6 @@ from io import BytesIO
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload
-
 import time
 import random
 import re
@@ -18,7 +17,7 @@ NIMBLE_PORT = "7000"
 cities = [
         "Hialeah"]
 # Google Drive API Credentials
-SERVICE_ACCOUNT_FILE = "/content/carbide-datum-371202-d2112a4e8a00.json"  # Ensure this is a valid file path
+SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 # Search parameters
 num_results = 15  # Reduce to avoid being blocked
