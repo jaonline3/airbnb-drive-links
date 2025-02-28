@@ -1,4 +1,4 @@
-name: Playwright Automation 0
+name: Playwright Automation google
 
 on:
   workflow_dispatch:   # Allows manual triggering
