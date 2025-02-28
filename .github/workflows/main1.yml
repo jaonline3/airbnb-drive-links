@@ -30,7 +30,7 @@ jobs:
           sudo apt install -y tor  # Install tor if required by your script
           
           # Install dependencies needed for DuckDuckGo search and related packages
-          pip install typing_extensions psutil pandas nest_asyncio pysocks duckduckgo-search primp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+          pip install typing_extensions psutil pandas nest_asyncio pysocks google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client pandas requests primp google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
       # Step 4: Decode and save JSON file from base64
       - name: Decode and save JSON file
