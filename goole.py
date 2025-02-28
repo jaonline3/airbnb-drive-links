@@ -11,6 +11,7 @@ NIMBLE_USERNAME = "account-asf_mawm03-pipeline-nimbleip"
 NIMBLE_PASSWORD = "3m70gRi643Rm"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
+search_query = 'site:www.linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "lawyer"  '
 
 # List of cities to search
 
