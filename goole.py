@@ -213,8 +213,8 @@ import random
 import re
 import pandas as pd
 # Nimble API Proxy Credentials
-NIMBLE_USERNAME = "account-asf_mawm03-pipeline-nimbleip"
-NIMBLE_PASSWORD = "3m70gRi643Rm"
+NIMBLE_USERNAME = "account-afs_urokcg-pipeline-nimbleip"
+NIMBLE_PASSWORD = "77C7tYl37tR1"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
 search_query = 'site:linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") real estate '
