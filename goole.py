@@ -217,21 +217,23 @@ NIMBLE_USERNAME = "account-asf_mawm03-pipeline-nimbleip"
 NIMBLE_PASSWORD = "3m70gRi643Rm"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
-search_query = 'site:www.linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "lawyer"  '
+search_query = 'site:linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") real estate '
 
 # List of cities to search
 
 cities = [
-         "Rochester", "Yonkers", "Akron", "Augusta", "Amarillo",
-    "Glendale (AZ)", "Huntington Beach", "Montgomery", "Grand Rapids", "Salt Lake City",
-    "Little Rock", "Huntsville", "Mobile", "Tallahassee", "Grand Prairie",
-    "Overland Park", "Knoxville", "Worcester", "Brownsville", "Newport News",
-    "Santa Rosa", "Chattanooga", "Providence", "Fort Lauderdale", "Tempe",
-    "Oceanside", "Garden Grove", "Rancho Cucamonga", "Cape Coral", "Santa Clarita",
-    "Sioux Falls", "Peoria", "Ontario", "Vancouver", "Springfield",
-    "Lancaster", "Eugene", "Pembroke Pines", "Salem", "Corona",
-    "Elk Grove", "Cary", "Fort Collins", "Jackson", "Alexandria",
-    "Hayward", "Clarksville", "Lakewood", "Hollywood", "Torrance"]
+        "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Canberra", "Newcastle", "Wollongong", "Logan City",
+    "Geelong", "Hobart", "Townsville", "Cairns", "Darwin", "Toowoomba", "Ballarat", "Bendigo", "Launceston", "Mackay",
+    "Rockhampton", "Bunbury", "Coffs Harbour", "Bundaberg", "Wagga Wagga", "Hervey Bay", "Mildura", "Shepparton", "Gladstone",
+    "Tamworth", "Orange", "Port Macquarie", "Dubbo", "Geraldton", "Nowra", "Bathurst", "Blue Mountains", "Lismore", "Kalgoorlie",
+    "Alice Springs", "Sunshine Coast", "Albany", "Mount Gambier", "Devonport", "Armidale", "Broken Hill", "Goulburn", "Echuca",
+    "Warrnambool", "Whyalla", "Ballina", "Gympie", "Busselton", "Maryborough", "Batemans Bay", "Grafton", "Emerald", "Forster",
+    "Victor Harbor", "Karratha", "Port Augusta", "Yeppoon", "Esperance", "Narrabri", "Kingaroy", "Parkes", "Inverell", "Muswellbrook",
+    "Bowral", "Mudgee", "Singleton", "Taree", "Lithgow", "Griffith", "Moree", "Port Lincoln", "Roma", "Wangaratta",
+    "Katherine", "Port Hedland", "Bairnsdale", "Mount Isa", "Warragul", "Morwell", "Gisborne", "Maitland", "Young", "Murray Bridge",
+    "Torquay", "Carnarvon", "Stawell", "Burnie", "Cooma", "Colac", "Deniliquin", "Goondiwindi", "Swan Hill", "Horsham",
+    "Narrandera", "Warwick", "Port Pirie", "Manjimup", "Yass", "Charters Towers"
+]]
 # Google Drive API Credentials
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
