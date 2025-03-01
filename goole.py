@@ -217,7 +217,7 @@ NIMBLE_USERNAME = "account-afs_urokcg-pipeline-nimbleip"
 NIMBLE_PASSWORD = "77C7tYl37tR1"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
-search_query = 'site:linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") real estate '
+search_query = 'site:au.linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") real estate '
 
 # List of cities to search
 
