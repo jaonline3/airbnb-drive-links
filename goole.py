@@ -233,7 +233,7 @@ cities = [
     "Katherine", "Port Hedland", "Bairnsdale", "Mount Isa", "Warragul", "Morwell", "Gisborne", "Maitland", "Young", "Murray Bridge",
     "Torquay", "Carnarvon", "Stawell", "Burnie", "Cooma", "Colac", "Deniliquin", "Goondiwindi", "Swan Hill", "Horsham",
     "Narrandera", "Warwick", "Port Pirie", "Manjimup", "Yass", "Charters Towers"
-]]
+]
 # Google Drive API Credentials
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
