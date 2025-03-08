@@ -213,11 +213,11 @@ import random
 import re
 import pandas as pd
 # Nimble API Proxy Credentials
-NIMBLE_USERNAME = "account-afs_urokcg-pipeline-nimbleip"
-NIMBLE_PASSWORD = "77C7tYl37tR1"
+NIMBLE_USERNAME = "account-jamshaid_arif_e49iri-pipeline-nimbleip"
+NIMBLE_PASSWORD = "H7v75J65U1sK"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
-search_query = 'site:au.linkedin.com/in ("@gmail.com" OR "mail" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") real estate '
+search_query = 'site:facebbok.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com" OR "@aol.com" OR "@zoho.com" OR "@gmx.com" OR "@yandex.com" OR "@mail.com") "crypto"'
 
 # List of cities to search
 
