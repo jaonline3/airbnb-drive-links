@@ -217,23 +217,35 @@ NIMBLE_USERNAME = "account-jamshaid_arif_e49iri-pipeline-nimbleip"
 NIMBLE_PASSWORD = "H7v75J65U1sK"
 NIMBLE_SERVER = "ip.nimbleway.com"
 NIMBLE_PORT = "7000"
-search_query = 'site:facebbok.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com" OR "@aol.com" OR "@zoho.com" OR "@gmx.com" OR "@yandex.com" OR "@mail.com") "crypto"'
+search_query = 'site:facebook.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com" OR "@aol.com" OR "@zoho.com" OR "@gmx.com" OR "@yandex.com" OR "@mail.com") "crypto"'
 
 # List of cities to search
 
-cities = [
-        "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Canberra", "Newcastle", "Wollongong", "Logan City",
-    "Geelong", "Hobart", "Townsville", "Cairns", "Darwin", "Toowoomba", "Ballarat", "Bendigo", "Launceston", "Mackay",
-    "Rockhampton", "Bunbury", "Coffs Harbour", "Bundaberg", "Wagga Wagga", "Hervey Bay", "Mildura", "Shepparton", "Gladstone",
-    "Tamworth", "Orange", "Port Macquarie", "Dubbo", "Geraldton", "Nowra", "Bathurst", "Blue Mountains", "Lismore", "Kalgoorlie",
-    "Alice Springs", "Sunshine Coast", "Albany", "Mount Gambier", "Devonport", "Armidale", "Broken Hill", "Goulburn", "Echuca",
-    "Warrnambool", "Whyalla", "Ballina", "Gympie", "Busselton", "Maryborough", "Batemans Bay", "Grafton", "Emerald", "Forster",
-    "Victor Harbor", "Karratha", "Port Augusta", "Yeppoon", "Esperance", "Narrabri", "Kingaroy", "Parkes", "Inverell", "Muswellbrook",
-    "Bowral", "Mudgee", "Singleton", "Taree", "Lithgow", "Griffith", "Moree", "Port Lincoln", "Roma", "Wangaratta",
-    "Katherine", "Port Hedland", "Bairnsdale", "Mount Isa", "Warragul", "Morwell", "Gisborne", "Maitland", "Young", "Murray Bridge",
-    "Torquay", "Carnarvon", "Stawell", "Burnie", "Cooma", "Colac", "Deniliquin", "Goondiwindi", "Swan Hill", "Horsham",
-    "Narrandera", "Warwick", "Port Pirie", "Manjimup", "Yass", "Charters Towers"
+cities =  [
+    "Queanbeyan", "Albury", "Wodonga", "Mandurah", "Bunbury", "Gawler", "Mount Barker", "Whyalla", "Portland",
+    "Broome", "Kwinana", "Rockingham", "Kempsey", "Port Douglas", "Airlie Beach", "Bowen", "Atherton", "Innisfail",
+    "Mareeba", "Tully", "Proserpine", "Ayr", "Dalby", "Longreach", "Charleville", "Cloncurry", "Mount Morgan",
+    "Emerald", "Chinchilla", "Kingaroy", "Roma", "Cunnamulla", "St George", "Goondiwindi", "Oakey", "Gatton",
+    "Beaudesert", "Ipswich", "Toowoomba", "Caboolture", "Maroochydore", "Noosa Heads", "Caloundra", "Nambour",
+    "Buderim", "Mooloolaba", "Hervey Bay", "Maryborough", "Bundaberg", "Gladstone", "Yeppoon", "Mackay", "Townsville",
+    "Ingham", "Home Hill", "Charters Towers", "Mount Isa", "Winton", "Nanango", "Gympie", "Noosa", "Maroochydore",
+    "Kawana Waters", "Bribie Island", "Redcliffe", "Morayfield", "Beerwah", "Maleny", "Eumundi", "Pomona", "Cooroy",
+    "Tewantin", "Noosaville", "Sunshine Beach", "Coolum Beach", "Bli Bli", "Palmwoods", "Woombye", "Yandina",
+    "Eudlo", "Mapleton", "Montville", "Kenilworth", "Conondale", "Kilcoy", "Woodford", "Esk", "Toogoolawah",
+    "Lowood", "Fernvale", "Laidley", "Forest Hill", "Plainland", "Harrisville", "Rosewood", "Walloon", "Goodna",
+    "Redbank", "Springfield", "Boonah", "Tamborine Mountain", "Canungra", "Jimboomba", "Greenbank", "Logan Village",
+    "Yarrabilba", "Beenleigh", "Eagleby", "Mount Warren Park", "Bahrs Scrub", "Shailer Park", "Daisy Hill",
+    "Slacks Creek", "Logan Central", "Woodridge", "Marsden", "Waterford", "Cornubia", "Carbrook", "Loganholme",
+    "Rochedale", "Springwood", "Underwood", "Rochedale South", "Drewvale", "Parkinson", "Pallara", "Forest Lake",
+    "Durack", "Inala", "Richlands", "Ellen Grove", "Wacol", "Gailes", "Bellbird Park", "Brookwater",
+    "Springfield Lakes", "Camira", "Carole Park", "New Beith", "Munruben", "Park Ridge", "Chambers Flat",
+    "Logan Reserve", "Cedar Grove", "Cedar Vale", "Flagstone", "Boronia Heights", "Hillcrest", "Regents Park",
+    "Berrinba", "Karawatha", "Kuraby", "Runcorn", "Sunnybank", "Sunnybank Hills", "Stretton", "Calamvale",
+    "Acacia Ridge", "Coopers Plains", "Salisbury", "Nathan", "Macgregor", "Robertson", "Wishart", "Mansfield",
+    "Burbank", "Chandler", "Capalaba", "Sheldon", "Thornlands", "Victoria Point", "Redland Bay", "Cleveland",
+    "Wellington Point", "Ormiston", "Alexandra Hills", "Birkdale", "Thorneside", "Capalaba West"
 ]
+
 # Google Drive API Credentials
 SERVICE_ACCOUNT_FILE = "file.json"  # Ensure this is a valid file path
 DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
