@@ -27,29 +27,26 @@ DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
 
 CITIES=[
-    "Bunbury", "Gawler", "Mount Barker", "Whyalla", "Portland",
-    "Broome", "Kwinana", "Rockingham", "Kempsey", "Port Douglas", "Airlie Beach", "Bowen", "Atherton", "Innisfail",
-    "Mareeba", "Tully", "Proserpine", "Ayr", "Dalby", "Longreach", "Charleville", "Cloncurry", "Mount Morgan",
-    "Emerald", "Chinchilla", "Kingaroy", "Roma", "Cunnamulla", "St George", "Goondiwindi", "Oakey", "Gatton",
-    "Beaudesert", "Ipswich", "Toowoomba", "Caboolture", "Maroochydore", "Noosa Heads", "Caloundra", "Nambour",
-    "Buderim", "Mooloolaba", "Hervey Bay", "Maryborough", "Bundaberg", "Gladstone", "Yeppoon", "Mackay", "Townsville",
-    "Ingham", "Home Hill", "Charters Towers", "Mount Isa", "Winton", "Nanango", "Gympie", "Noosa", "Maroochydore",
-    "Kawana Waters", "Bribie Island", "Redcliffe", "Morayfield", "Beerwah", "Maleny", "Eumundi", "Pomona", "Cooroy",
-    "Tewantin", "Noosaville", "Sunshine Beach", "Coolum Beach", "Bli Bli", "Palmwoods", "Woombye", "Yandina",
-    "Eudlo", "Mapleton", "Montville", "Kenilworth", "Conondale", "Kilcoy", "Woodford", "Esk", "Toogoolawah",
-    "Lowood", "Fernvale", "Laidley", "Forest Hill", "Plainland", "Harrisville", "Rosewood", "Walloon", "Goodna",
-    "Redbank", "Springfield", "Boonah", "Tamborine Mountain", "Canungra", "Jimboomba", "Greenbank", "Logan Village",
-    "Yarrabilba", "Beenleigh", "Eagleby", "Mount Warren Park", "Bahrs Scrub", "Shailer Park", "Daisy Hill",
-    "Slacks Creek", "Logan Central", "Woodridge", "Marsden", "Waterford", "Cornubia", "Carbrook", "Loganholme",
-    "Rochedale", "Springwood", "Underwood", "Rochedale South", "Drewvale", "Parkinson", "Pallara", "Forest Lake",
-    "Durack", "Inala", "Richlands", "Ellen Grove", "Wacol", "Gailes", "Bellbird Park", "Brookwater",
-    "Springfield Lakes", "Camira", "Carole Park", "New Beith", "Munruben", "Park Ridge", "Chambers Flat",
-    "Logan Reserve", "Cedar Grove", "Cedar Vale", "Flagstone", "Boronia Heights", "Hillcrest", "Regents Park",
-    "Berrinba", "Karawatha", "Kuraby", "Runcorn", "Sunnybank", "Sunnybank Hills", "Stretton", "Calamvale",
-    "Acacia Ridge", "Coopers Plains", "Salisbury", "Nathan", "Macgregor", "Robertson", "Wishart", "Mansfield",
-    "Burbank", "Chandler", "Capalaba", "Sheldon", "Thornlands", "Victoria Point", "Redland Bay", "Cleveland",
-    "Wellington Point", "Ormiston", "Alexandra Hills", "Birkdale", "Thorneside", "Capalaba West"
-]
+    "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Canberra", "Hobart", "Darwin",
+    "Newcastle", "Wollongong", "Geelong", "Cairns", "Alice Springs", "Bendigo", "Ballarat",
+    "Albury", "Wagga Wagga", "Launceston", "Devonport", "Burnie", "Rockhampton", "Geraldton",
+    "Kalgoorlie", "Mildura", "Shepparton", "Coffs Harbour", "Dubbo", "Tamworth", "Orange",
+    "Bathurst", "Nowra", "Lismore", "Port Macquarie", "Mount Gambier", "Goulburn", "Armidale",
+    "Broken Hill", "Grafton", "Taree", "Port Augusta", "Whyalla", "Mount Gambier", "Warrnambool",
+    "Traralgon", "Wangaratta", "Horsham", "Echuca", "Bairnsdale", "Sale", "Ballina", "Forster",
+    "Maitland", "Singleton", "Muswellbrook", "Lithgow", "Young", "Cooma", "Parkes", "Forbes",
+    "Narrabri", "Moree", "Griffith", "Swan Hill", "Wodonga", "Katherine", "Tennant Creek",
+    "Port Hedland", "Karratha", "Esperance", "Albany", "Busselton", "Margaret River", "Manjimup",
+    "Northam", "Bunbury", "Geraldton", "Broome", "Exmouth", "Carnarvon", "Kununurra", "Derby",
+    "Port Lincoln", "Victor Harbor", "Murray Bridge", "Gawler", "Mount Barker", "Renmark",
+    "Bordertown", "Naracoorte", "Strathalbyn", "Kadina", "Clare", "Yorketown", "Peterborough",
+    "Streaky Bay", "Ceduna", "Coober Pedy", "Tumut", "Deniliquin", "Yass", "Batemans Bay",
+    "Merimbula", "Ulladulla", "Gosford", "Wyong", "Tweed Heads", "Casino", "Bowral", "Mittagong",
+    "Queanbeyan", "Cootamundra", "West Wyalong", "Nyngan", "Bourke", "Lightning Ridge",
+    "Charters Towers", "Mount Isa", "Longreach", "Emerald", "Blackwater", "Biloela",
+    "Gladstone", "Bundaberg", "Hervey Bay", "Maryborough", "Roma", "Goondiwindi", "Dalby",
+    "Kingaroy", "Stanthorpe", "Warwick", "Cunnamulla", "Birdsville", "Weipa", "Cooktown",
+    "Thursday Island", "Yulara", "Alice Springs", "Jabiru", "Nhulunbuy", "Howard Springs"]
 def is_tor_running():
     """Check if Tor process is running."""
     return any("tor" in process.info["name"].lower() for process in psutil.process_iter(["name"]))
