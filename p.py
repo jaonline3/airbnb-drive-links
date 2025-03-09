@@ -27,28 +27,28 @@ DRIVE_FOLDER_ID = "1MP5GR_GFxe8x4eEE-A-uOLaLPeq37Yg1"
 
 
 CITIES=[
- "Tunis", "Sfax", "Sousse", "Kairouan", "Bizerte", "Gabès", "Ariana", "Gafsa", "Monastir", "Nabeul",
-    "Tataouine", "La Marsa", "Mahdia", "Médenine", "Hammamet", "Ben Arous", "Jendouba", "Kébili", "El Kef", "Kasserine",
-    "Siliana", "Zarzis", "Tozeur", "Manouba", "Djerba", "Hammam-Lif", "Hammam-Sousse", "Moknine", "Menzel Temime", "Mateur",
-    "Menzel Bourguiba", "Douz", "Korba", "Kélibia", "Kelibia", "Oued Ellil", "Radès", "Sakiet Ezzit", "Sakiet Sidi Youssef", "Sbiba",
-    "Tebourba", "M'saken", "Thala", "Gremda", "Redeyef", "Metlaoui", "Medenine Nord", "Dahmani", "Bou Salem", "El Hamma",
-    "Jemmal", "Chebba", "Ksour Essef", "Bir El Hafey", "Haffouz", "Meknassy", "Feriana", "Melloula", "Beni Khalled", "Aïn Draham",
-    "Hammam Ghazez", "El Alia", "Menzel Abderrahmane", "Zaghouan", "Amdoun", "Sidi Bouzid", "Tinja", "Béja", "Sbeitla", "Mornag",
-    "Tajerouine", "Oued Meliz", "Bou Argoub", "Bargou", "Sejnane", "Djebel Jelloud", "Thibars", "Ksar Hellal", "Enfidha",
-    "Ras Jebel", "Menzel Bouzelfa", "Beni Khedache", "Jemna", "Hergla", "Tamerza", "Chebika", "Ghomrassen", "Douar Hicher", "Zaouia",
-    "Menzel Mhiri", "Sened", "El Guettar", "Oued Souani", "Majel Bel Abbès", "Bir Ali Ben Khalifa", "El Metline", "Souassi", "El Jem",
-    "Bouficha", "Hassi El Ferid", "Teboulba", "Sayada", "Bou Merdes", "Bekalta", "Ksibet El Mediouni", "Zarat", "Galaat El Andeless", "Testour", "El Fahs",
-    "Jebiniana", "Menzel Chaker", "Mareth", "Metouia", "El Amra", "Joumine", "Ghar El Melh", "El Krib", "Ezzahra", "Aousja",
-    "Goubellat", "Djedeida", "El Maamoura", "Borj Cedria", "Borj El Amri", "Rejiche", "Ghannouch", "Hazoua", "Saida",
-    "Ouled Chamekh", "Hammam Zriba", "Beni Hassane", "Echrarda", "Smâr", "Souk Lahad", "Kondar", "Menzel Salem",
-    "Beni Mtir", "Hassi Jerbi", "Zraoua", "Meknassi", "Beni Khedir", "Bani Rabia", "Bir Lahmar", "Zouarine", "Ain Snoussi",
-    "Menzel Mehiri", "Tinja", "El Mida", "Menzel Fersi", "Ouled Haffouz", "El Battan", "Dkhila", "Toukabeur", "Oueslatia",
-    "Béni Khedir", "Bir Drassen", "El Hencha", "Kalaat Senan", "Sbikha", "Ghardimaou", "Foussana", "Haouaria", "Bir Bouregba",
-    "Rjim Maatoug", "Sidi El Heni", "Djebeniana", "Sidi Makhlouf", "Dhouib", "Boughrara", "Bouhajla", "Jelma", "Douiret",
-    "Aïn Djaloula", "Rebahia", "Alouet", "Haidra", "Kalâa Kebira", "Kalâa Seghira", "Chorbane", "Jérissa", "Menzel Habib",
-    "Zriba", "Rmada", "Bir Salah", "Mezzouna", "Sidi Bou Ali", "El Golâa", "Medjez el-Bab", "Béni Khalled", "Beni Khalled",
-    "Ouled Jaballah", "Fériana", "El Hammah", "Tamerza", "Menzel Bouzaiane", "Tirboul", "Sidi Zid", "Henchir El Aoun",
-    "Korbous", "Nouail"
+    "Bunbury", "Gawler", "Mount Barker", "Whyalla", "Portland",
+    "Broome", "Kwinana", "Rockingham", "Kempsey", "Port Douglas", "Airlie Beach", "Bowen", "Atherton", "Innisfail",
+    "Mareeba", "Tully", "Proserpine", "Ayr", "Dalby", "Longreach", "Charleville", "Cloncurry", "Mount Morgan",
+    "Emerald", "Chinchilla", "Kingaroy", "Roma", "Cunnamulla", "St George", "Goondiwindi", "Oakey", "Gatton",
+    "Beaudesert", "Ipswich", "Toowoomba", "Caboolture", "Maroochydore", "Noosa Heads", "Caloundra", "Nambour",
+    "Buderim", "Mooloolaba", "Hervey Bay", "Maryborough", "Bundaberg", "Gladstone", "Yeppoon", "Mackay", "Townsville",
+    "Ingham", "Home Hill", "Charters Towers", "Mount Isa", "Winton", "Nanango", "Gympie", "Noosa", "Maroochydore",
+    "Kawana Waters", "Bribie Island", "Redcliffe", "Morayfield", "Beerwah", "Maleny", "Eumundi", "Pomona", "Cooroy",
+    "Tewantin", "Noosaville", "Sunshine Beach", "Coolum Beach", "Bli Bli", "Palmwoods", "Woombye", "Yandina",
+    "Eudlo", "Mapleton", "Montville", "Kenilworth", "Conondale", "Kilcoy", "Woodford", "Esk", "Toogoolawah",
+    "Lowood", "Fernvale", "Laidley", "Forest Hill", "Plainland", "Harrisville", "Rosewood", "Walloon", "Goodna",
+    "Redbank", "Springfield", "Boonah", "Tamborine Mountain", "Canungra", "Jimboomba", "Greenbank", "Logan Village",
+    "Yarrabilba", "Beenleigh", "Eagleby", "Mount Warren Park", "Bahrs Scrub", "Shailer Park", "Daisy Hill",
+    "Slacks Creek", "Logan Central", "Woodridge", "Marsden", "Waterford", "Cornubia", "Carbrook", "Loganholme",
+    "Rochedale", "Springwood", "Underwood", "Rochedale South", "Drewvale", "Parkinson", "Pallara", "Forest Lake",
+    "Durack", "Inala", "Richlands", "Ellen Grove", "Wacol", "Gailes", "Bellbird Park", "Brookwater",
+    "Springfield Lakes", "Camira", "Carole Park", "New Beith", "Munruben", "Park Ridge", "Chambers Flat",
+    "Logan Reserve", "Cedar Grove", "Cedar Vale", "Flagstone", "Boronia Heights", "Hillcrest", "Regents Park",
+    "Berrinba", "Karawatha", "Kuraby", "Runcorn", "Sunnybank", "Sunnybank Hills", "Stretton", "Calamvale",
+    "Acacia Ridge", "Coopers Plains", "Salisbury", "Nathan", "Macgregor", "Robertson", "Wishart", "Mansfield",
+    "Burbank", "Chandler", "Capalaba", "Sheldon", "Thornlands", "Victoria Point", "Redland Bay", "Cleveland",
+    "Wellington Point", "Ormiston", "Alexandra Hills", "Birkdale", "Thorneside", "Capalaba West"
 ]
 def is_tor_running():
     """Check if Tor process is running."""
@@ -152,7 +152,7 @@ for city in CITIES:
         print(f"\n🔍 Searching in: {city}")
         restart_tor()  # Restart Tor for each search
 
-        query = f'site:instagram.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com") "doctor" "{city}"'
+        query = f'site:facebook.com ("@gmail.com" OR "@yahoo.com" OR "@outlook.com" OR "@hotmail.com" OR "@icloud.com" OR "@protonmail.com" OR "@aol.com" OR "@zoho.com" OR "@gmx.com" OR "@yandex.com" OR "@mail.com") "crypto" {city}'
         search_results = perform_search_with_tor(query)
 
         if search_results and isinstance(search_results, list):
